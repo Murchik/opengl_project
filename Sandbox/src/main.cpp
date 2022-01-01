@@ -1,8 +1,15 @@
-namespace opnGL {
-	__declspec(dllimport) void print();
-}
+#include <opnGL.h>
 
-int main() {
-	opnGL::print();
-	return 0;
+class sandbox : public opnGL::application {
+public:
+    sandbox() {
+
+    }
+    ~sandbox() {
+
+    }
+};
+
+opnGL::application* opnGL::createApplication() {
+    return new sandbox();
 }
