@@ -60,6 +60,7 @@
       <PreprocessorDefinitions>OPNGL_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)opengl_project\lib\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -75,6 +76,7 @@
       <PreprocessorDefinitions>OPNGL_BUILD_DLL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)opengl_project\lib\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -84,12 +86,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\opnGL\logger.h" />
     <ClInclude Include="src\opnGL.h" />
     <ClInclude Include="src\opnGL\application.h" />
     <ClInclude Include="src\opnGL\core.h" />
     <ClInclude Include="src\opnGL\entryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\opnGL\logger.cpp" />
     <ClCompile Include="src\opnGL\application.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

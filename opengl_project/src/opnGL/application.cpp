@@ -1,6 +1,7 @@
 #include "application.h"
 
 namespace opnGL {
+
     application::application() {}
 
     application::~application() {}
@@ -9,4 +10,5 @@ namespace opnGL {
         while(true) {
         }
     }
+
 }  // namespace opnGL

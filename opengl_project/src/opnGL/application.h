@@ -3,6 +3,7 @@
 #include "core.h"
 
 namespace opnGL {
+
     class OPNGL_API application {
     public:
         application();
@@ -13,4 +14,5 @@ namespace opnGL {
 
     // to be defined in user app
     application* createApplication();
+
 }
