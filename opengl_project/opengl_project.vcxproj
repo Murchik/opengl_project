@@ -66,6 +66,11 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)bin\Debug-x64\opengl_project\opengl_project.dll $(SolutionDir)bin\Debug-x64\Sandbox
+</Command>
+      <Message>Copy .dll file in the folder with .exe</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -84,6 +89,11 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)bin\Debug-x64\opengl_project\opengl_project.dll $(SolutionDir)bin\Debug-x64\Sandbox
+</Command>
+      <Message>Copy .dll file in the folder with .exe</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\opnGL\logger.h" />
