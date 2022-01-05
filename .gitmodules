@@ -1,3 +1,6 @@
 [submodule "opengl_project/lib/spdlog"]
 	path = opengl_project/lib/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "opengl_project/lib/GLFW"]
+	path = opengl_project/lib/GLFW
+	url = https://github.com/glfw/glfw.git
