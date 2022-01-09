@@ -5,8 +5,8 @@
 #include <GLFW/glfw3.h>
 #include <glad/glad.h>
 
-#include "../../opnGL/window.h"
-#include "../../opnGL/logger.h"
+#include "../../opnGL/window.hpp"
+#include "../../opnGL/logger.hpp"
 
 namespace opnGL {
 

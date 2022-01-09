@@ -1,4 +1,4 @@
-#include "glfw_window.h"
+#include "glfw_window.hpp"
 
 opnGL::glfw_window::glfw_window() {
     if(!glfwInit()) {

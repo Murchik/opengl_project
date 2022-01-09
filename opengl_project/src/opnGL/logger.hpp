@@ -6,7 +6,7 @@
 #include <spdlog/sinks/stdout_color_sinks.h>
 #pragma warning(pop)
 
-#include "core.h"
+#include "core.hpp"
 
 namespace opnGL {
 

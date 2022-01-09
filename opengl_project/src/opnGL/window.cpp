@@ -1,5 +1,5 @@
-#include "window.h"
-#include "../platform/winGLFW/glfw_window.h"
+#include "window.hpp"
+#include "../platform/winGLFW/glfw_window.hpp"
 
 namespace opnGL {
 

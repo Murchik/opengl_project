@@ -1,4 +1,4 @@
-#include <opnGL.h>
+#include <opnGL.hpp>
 
 class sandbox : public opnGL::application {
 public:

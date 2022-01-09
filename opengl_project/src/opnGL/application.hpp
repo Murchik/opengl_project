@@ -1,8 +1,8 @@
 #pragma once
 
-#include "core.h"
-#include "logger.h"
-#include "window.h"
+#include "core.hpp"
+#include "logger.hpp"
+#include "window.hpp"
 
 namespace opnGL {
 
