@@ -2,6 +2,7 @@
 
 #include "core.h"
 #include "logger.h"
+#include "window.h"
 
 namespace opnGL {
 
@@ -11,6 +12,9 @@ namespace opnGL {
         virtual ~application();
 
         void run();
+
+    private:
+        std::unique_ptr<window> m_main_window;
     };
 
     // to be defined in user app
